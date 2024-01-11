@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- //style0// -->
+<style>
+.button0{
+ 
+    background: white;
+    border-bottom:  none;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+.button1{
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+.button2{
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+.button3{
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+</style>
+<!-- //style1// -->
+<style>
+    .button1{
+        background: white;
+        border-bottom: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button0{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button2{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button3{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+</style>
+<!-- //st3yle2// -->
+<style>
+    .button2{
+        background: white;
+        border-bottom: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button1{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button0{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button3{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+</style>
+<!-- //st4yle3// -->
+<style>
+    .button3{
+        background: white;
+        border-bottom: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button1{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button2{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .button0{
+        background: none;
+        border: none;
+        padding: 10px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+</style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cfd50280ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="div6"><h1 class="h11">Google Account Checker </h1><div class="divi"><i class="fa-solid fa-check"></div></i></div>
+    <hr>
+    <div class="div1">
+        <div>
+            
+      <h2 class="h22">Enter Gmail <i class="fa-solid fa-envelope"></i>  Accounts</h2>
+      <textarea class="inp1" placeholder="Paste bulk Gmails (one per line)" type="text"></textarea>
+        </div>
+        <div class="div2">
+    <div class="div3">
+       <button onclick="reStyle(0)" class="button0">all <i class="fa-solid fa-list"></i> (0)</button>
+       <button onclick="reStyle(1)"class="button1">Good <i class="fa-solid fa-thumbs-up"></i>(0)</button>
+       <button onclick="reStyle(2)" class="button2">Bad <i class="fa-solid fa-thumbs-down"></i> (0)</button>
+       <button onclick="reStyle(3)" class="button3">Invilad <i class="fa-solid fa-exclamation"></i> (0)</button>
+        
+      
+        </div>
+   <div>
+    <!-- <span id="span1"></span> -->
+    <textarea class="inp2" placeholder="Good mails" type="text"></textarea>
+</div>
+    
+</div>
+</div>
+<script>
+
+function noStyles() {
+    document.styleSheets[0].disabled = true;
+    document.styleSheets[1].disabled = true;
+    document.styleSheets[2].disabled = true;
+    document.styleSheets[3].disabled = true;
+ }
+
+ function reStyle(n) {
+    noStyles()
+    document.styleSheets[n].disabled = false;
+}
+ reStyle(0);
+
+
+//  let call = document.getElementsByClassName('inp2')[0];
+
+// document.addEventListener('click', function() {
+//     document.getElementById('span1').innerText= call;
+// });
+
+
+    </script>
+</script>
+</body>
+</html>
